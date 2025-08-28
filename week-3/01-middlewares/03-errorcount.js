@@ -15,12 +15,16 @@ app.get('/user', function(req, res) {
   res.status(200).json({ name: 'john' });
 });
 
-app.post('/user', function(req, res) {
-  res.status(200).json({ msg: 'created dummy user' });
-});
-
 app.get('/errorCount', function(req, res) {
   res.status(200).json({ errorCount });
 });
+
+
+app.use(function(err, req, res, next) {
+  errorCount = errorCount + 1;
+  res.status(404).send({})
+})
+
+app.listen(3002,  () => console.log(`App listen is 3002`))
 
 module.exports = app;

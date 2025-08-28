@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="post"></div>
+  <script>
+    async function fetchPosts() {
+      try {
+        
+        const res = await axios.get("https://jsonplaceholder.typicode.com/posts/1")
+        json = res.data
+        console.log(json)
+        document.getElementById("post").innerText = json.title
+      
+      
+    } catch (error) {
+      console.log("Error : ", error)
+      document.getElementById("post").innerText = "Failed to fetch"
+      }
+    } 
+
+    fetchPosts()
+  </script>
+</body>
+</html>

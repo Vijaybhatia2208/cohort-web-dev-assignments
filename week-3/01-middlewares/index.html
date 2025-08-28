@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    async function calcSum() {
+      const a = document.getElementById("var-a").value;
+      const b = document.getElementById("var-b").value;
+      const res = await fetch("http://localhost:3000/sum"
+        , {
+          'method': 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            a: a,
+            b: b
+          })
+        }, 
+      )
+      if(!res.ok) {
+        document.getElementById("post").innerText = "Failed to fetch"
+      } else {
+        json = await res.json()
+        console.log(json)
+        document.getElementById("sum").innerText = json.result
+      }
+    } 
+
+    // calcSum();
+  </script>
+  <div style="display: flex; justify-content: center; align-items: center; height: 80vh; ">
+    <div style="width: 390px; display:flex; gap: 10px; flex-direction: column; padding: 20px; border: 2px solid gray; border-radius: 10px; ">
+      <input type="number"  id="var-a" placeholder="Enter A"/>
+      <input type="number" id="var-b"  placeholder="Enter B"/>
+      
+      <button onclick="calcSum()">Calculate Sum</button>
+      <div style="display:flex; gap: 10px; align-items: center;">
+        <span style="font-size: 18px; font-weight:600 ">Sum:</span>
+        <span id="sum" style="font-size: 14px; "></span>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
