@@ -1,0 +1,87 @@
+# 📅 Learning Plan with Dates
+
+Done **2025-08-28** - Week 6.1 - HTTP Deep Dive
+- [ ] **2025-08-29** - Week 6.2 - Auth Connecting Frontend to Backend
+- [ ] **2025-08-30** - Week 6 -offline - JWT
+- [ ] **2025-08-31** - Week 6 - Mongo Installation
+Week 7 (Two per day starts here)
+
+- [ ] **2025-09-01** - Week 7.1 - MongoDB CRUD
+- [ ] **2025-09-02** - Week 7.2 - Password, Zod
+- [ ] **2025-09-03** - Week 8.1 - Backend Course Selling App
+- [ ] **2025-09-04** - Week 8.2 - Backend Course Selling App (Part 2)
+- [ ] **2025-09-05** - Week 8.3 - MongoDB Deep Dive (offline)
+- [ ] **2025-09-06** - Week 9.1 - Codesen React Videos 1–4
+- [ ] **2025-09-06** - Week 9.2 - Codesen React Videos 5–7 + Assignment
+- [ ] **2025-09-07** - Week 10.1 - Codeszen React Videos 8–11
+- [ ] **2025-09-07** - Week 10.2 - Codesen React Videos 12–14 + Assignment
+- [ ] **2025-09-08** - Week 11.1 - Codesen React Videos 15–18
+- [ ] **2025-09-09** - Week 11.2 - Codesen React Videos 19–21 + Assignment
+- [ ] **2025-09-10** - Week 12.1 - Codesen React Videos 22–25
+- [ ] **2025-09-11** - Week 13.1 - Codesen React Videos 26–28 + Assignment
+- [ ] **2025-09-12** - Week 13.2 - Codesen React Videos 29–32
+- [ ] **2025-09-13** - Week 14.1 - TypeScript Intro
+- [ ] **2025-09-13** - Week 14.2 - Types & Interfaces
+- [ ] **2025-09-14** - Week 14.3 - Advanced Types
+- [ ] **2025-09-14** - Week 15.1 - End-to-End Project App in TS (Second Brain App)
+- [ ] **2025-09-15** - Week 15.2 - Creating a UI Library (Button Component)
+- [ ] **2025-09-16** - Week 15.3 - Brainly End-to-End Project
+- [ ] **2025-09-17** - Week 16.1 - WebSockets and SQL DB
+- [ ] **2025-09-18** - Week 16.2 - Chat App using WebSockets
+- [ ] **2025-09-19** - Week 17.1 - Postgres & SQL DB (Part 1)
+- [ ] **2025-09-20** - Week 17.2 - Postgres & SQL DB (Part 2)
+- [ ] **2025-09-20** - Week 18.1 - Prisma & ORM
+- [ ] **2025-09-21** - Week 18.2 - Prisma Advanced, Introducing SSR
+- [ ] **2025-09-21** - Week 19.1 - Next.js Intro
+- [ ] **2025-09-22** - Week 20.1 - Next.js Continued
+- [ ] **2025-09-23** - Week 20.2 - NextAuth
+- [ ] **2025-09-24** - Week 21.1 - Monorepos, Turborepo
+- [ ] **2025-09-25** - Week 21.2 - Monorepos Continued
+- [ ] **2025-09-26** - Week 21.3 - CSR, SSR, vs Static Site Generation
+- [ ] **2025-09-27** - Week 21.4 - Building Paytm Project
+- [ ] **2025-09-27** - Week 21.5 - Building Paytm Frontend
+- [ ] **2025-09-28** - Week 22.1 - End-to-End Excalidraw Project (Part 1)
+- [ ] **2025-09-28** - Week 22.2 - End-to-End Excalidraw Project (Part 2)
+- [ ] **2025-09-29** - Week 23.1 - End-to-End Excalidraw Project (Part 3)
+- [ ] **2025-09-30** - Week 23.2 - End-to-End Excalidraw Project (Part 4)
+
+**DevOps & Cloud Track**
+
+- [ ] **2025-10-01** - Week 27.1 - Explore CI/CD Concepts, GitHub Actions Basics
+- [ ] **2025-10-02** - Week 27.2 - Jenkins Installation & Configuration
+- [ ] **2025-10-03** - Week 28.1 - Master Git Basics
+- [ ] **2025-10-04** - Week 28.2 - Software Process, Project Management Basics
+- [ ] **2025-10-04** - Week 29.1 - Deep Dive: Project Management & SDLC
+- [ ] **2025-10-05** - Week 29.2 - Agile, Scrum, and JIRA
+- [ ] **2025-10-05** - Week 30.1 - Git Branching & Workflows
+- [ ] **2025-10-06** - Week 30.2 - Advanced Git Usage (Part 2)
+- [ ] **2025-10-07** - Week 28.3 - Environment Setup & YAML Basics
+- [ ] **2025-10-08** - Week 28.4 - Ansible & Automation
+- [ ] **2025-10-09** - Week 29.3 - Docker Basics
+- [ ] **2025-10-10** - Week 29.4 - Running Containers
+- [ ] **2025-10-11** - Week 30.3 - Docker Compose & Orchestration
+- [ ] **2025-10-11** - Week 30.4 - Docker Networking & Volumes
+- [ ] **2025-10-12** - Week 31.1 - Terraform Basics
+- [ ] **2025-10-12** - Week 31.2 - Automating Infrastructure
+- [ ] **2025-10-13** - Week 32.1 - Terraform Advanced (Modules, Variables)
+- [ ] **2025-10-14** - Week 32.2 - Scaling Infrastructure
+- [ ] **2025-10-15** - Week 33.1 - AWS Fundamentals
+- [ ] **2025-10-16** - Week 33.2 - IAM, VPC, Networking Basics
+- [ ] **2025-10-17** - Week 34.1 - Kubernetes Basics
+- [ ] **2025-10-18** - Week 34.2 - Deploy & Manage Workloads
+- [ ] **2025-10-18** - Week 35.1 - Namespaces & Clusters
+- [ ] **2025-10-19** - Week 35.2 - Ingress in Kubernetes
+- [ ] **2025-10-19** - Week 36.1 - Secrets & ConfigMaps
+- [ ] **2025-10-20** - Week 36.2 - Ingress Controllers
+- [ ] **2025-10-21** - Week 37.1 - ArgoCD
+- [ ] **2025-10-22** - Week 37.2 - GitOps Principles
+- [ ] **2025-10-23** - Week 38.1 - Helm Basics
+- [ ] **2025-10-24** - Week 39.1 - Project Class: BetterStack
+- [ ] **2025-10-25** - Week 40.1 - Creating BetterStack in Rust
+- [ ] **2025-10-25** - Week 41.1 - Project Review Class
+- [ ] **2025-10-26** - Week 41.2 - BetterStack Part 3 (Offline)
+- [ ] **2025-10-26** - Week 42.1 - Async Backend Communication (Redis Streams)
+- [ ] **2025-10-27** - Week 42.2 - BetterStack Part 4 (Offline)
+- [ ] **2025-10-28** - Week 43.1 - Worker & Pusher with Redis Streams (JS)
+- [ ] **2025-10-29** - Week 43.2 - Finishing the Frontend for BetterStack
+- [ ] **2025-10-30** - Week 44.1 - Scaling HTTP & WS Servers
